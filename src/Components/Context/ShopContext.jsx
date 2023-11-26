@@ -8,6 +8,7 @@ const GetDefaultCart = () => {
   for (let index = 0; index < allProduct.length+1; index++) {
     cart[index] = 0;
   }
+  retun cart;
 };
 
 const ShopContextProvider = (props) => {
